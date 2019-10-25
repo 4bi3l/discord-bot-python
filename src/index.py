@@ -3,7 +3,6 @@ from discord.ext import commands
 from datetime import datetime
 from cogs.api_coingecko import *
 
-
 bot = commands.Bot(command_prefix='!', description="This a helper bot")
 
 extensions = ['cogs.api_localBit', 'cogs.api_coingecko', 'cogs.chat_discord']
